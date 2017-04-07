@@ -26,27 +26,39 @@ ul {
     cursor: pointer;
     background-color: #404040;
     padding: 7px;
-    margin: 7px 0;
+    margin: 7px 0px;
     color: white;
 }
 
 .card h4 {
-    margin: 0;
+    margin: 0px;
 }
 
 .description {
-    color: lightgrey;
+    color: lightgray;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex input {
-    flex-grow: 2;
+  flex-grow: 2;
 }
 
 .flex button {
-    flex-basis: auto;
+  flex-basis: auto;
+}
+
+.card button,
+.card input,
+.card textarea {
+    color: #404040;
+    margin: 2px 0px;
+}
+
+.card textarea {
+    width: 100%;
+    resize: vertical;
 }
 

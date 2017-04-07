@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 
-from .serializers import ListSerializer, CardSerializer
 from .models import List, Card
+from .serializers import ListSerializer, CardSerializer
 
 
 class ListViewSet(ModelViewSet):
@@ -12,3 +12,4 @@ class ListViewSet(ModelViewSet):
 class CardViewSet(ModelViewSet):
     queryset = Card.objects.all()
     serializer_class = CardSerializer
+
